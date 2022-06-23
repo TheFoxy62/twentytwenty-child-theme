@@ -10,4 +10,3 @@ function my_theme_enqueue_styles() {
 
 // demande à Wordpress de lancer la fonction `my_theme_enqueue_styles` durant le démarrage de l'application
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
-
